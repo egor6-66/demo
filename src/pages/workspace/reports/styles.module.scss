@@ -1,3 +1,6 @@
+@use 'styleUtilities/mixins';
+
 .wrapper{
-  background-color: darkblue;
+  @include mixins.flex(center, center);
+  @include mixins.box-size(100%, 100%)
 }
